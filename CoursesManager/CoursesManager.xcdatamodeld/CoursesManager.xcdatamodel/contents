@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="JDCourse" representedClassName="JDCourse" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="JDUser" inverseName="study" inverseEntity="JDUser" syncable="YES"/>
+        <relationship name="teacher" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="JDUser" inverseName="teach" inverseEntity="JDUser" syncable="YES"/>
+    </entity>
+    <entity name="JDUser" representedClassName="JDUser" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="study" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="JDCourse" inverseName="students" inverseEntity="JDCourse" syncable="YES"/>
+        <relationship name="teach" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="JDCourse" inverseName="teacher" inverseEntity="JDCourse" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="JDUser" positionX="-5229" positionY="-16" width="128" height="118"/>
+        <element name="JDCourse" positionX="-4948" positionY="-16" width="128" height="118"/>
+    </elements>
+</model>

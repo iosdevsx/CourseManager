@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47018F721C7F06CD00B3DA6A /* JDStudentsPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 47018F711C7F06CD00B3DA6A /* JDStudentsPicker.m */; };
+		4705B7611C76159900780262 /* JDCoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7601C76159900780262 /* JDCoursesTableViewController.m */; };
+		4705B7661C76185100780262 /* JDCourse+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7631C76185100780262 /* JDCourse+CoreDataProperties.m */; };
+		4705B7671C76185100780262 /* JDCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7651C76185100780262 /* JDCourse.m */; };
+		4705B76A1C7618B400780262 /* JDCourseDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7691C7618B400780262 /* JDCourseDetailTableViewController.m */; };
+		47F6A7401C7753B600180129 /* JDLabelAndFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F6A73F1C7753B600180129 /* JDLabelAndFieldCell.m */; };
+		47F6A7451C7761BC00180129 /* JDFormSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F6A7441C7761BC00180129 /* JDFormSection.m */; };
+		47F78F611C85D2D3009301AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47F78F631C85D2D3009301AD /* Localizable.strings */; };
+		47FC96A71C74BCDA0041C4FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96A61C74BCDA0041C4FA /* main.m */; };
+		47FC96AA1C74BCDA0041C4FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96A91C74BCDA0041C4FA /* AppDelegate.m */; };
+		47FC96B01C74BCDA0041C4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FC96AE1C74BCDA0041C4FA /* Main.storyboard */; };
+		47FC96B31C74BCDA0041C4FA /* CoursesManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96B11C74BCDA0041C4FA /* CoursesManager.xcdatamodeld */; };
+		47FC96B51C74BCDA0041C4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FC96B41C74BCDA0041C4FA /* Assets.xcassets */; };
+		47FC96B81C74BCDA0041C4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FC96B61C74BCDA0041C4FA /* LaunchScreen.storyboard */; };
+		47FC96C11C74C33F0041C4FA /* JDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96C01C74C33F0041C4FA /* JDDataManager.m */; };
+		47FC96C61C74C3E80041C4FA /* JDUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96C31C74C3E80041C4FA /* JDUser+CoreDataProperties.m */; };
+		47FC96C71C74C3E80041C4FA /* JDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96C51C74C3E80041C4FA /* JDUser.m */; };
+		47FC96CB1C74C4690041C4FA /* JDCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96CA1C74C4690041C4FA /* JDCoreDataTableViewController.m */; };
+		47FC96CE1C74C58F0041C4FA /* JDUsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96CD1C74C58F0041C4FA /* JDUsersTableViewController.m */; };
+		47FC96D81C74CE9B0041C4FA /* JDUserDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FC96D71C74CE9B0041C4FA /* JDUserDetailTableViewController.m */; };
+		47FD35051C7DCD84003738F4 /* JDTeacherPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FD35041C7DCD84003738F4 /* JDTeacherPicker.m */; };
+		47FD35101C7DDB22003738F4 /* JDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FD350F1C7DDB22003738F4 /* JDHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47018F701C7F06CD00B3DA6A /* JDStudentsPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStudentsPicker.h; sourceTree = "<group>"; };
+		47018F711C7F06CD00B3DA6A /* JDStudentsPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStudentsPicker.m; sourceTree = "<group>"; };
+		4705B75F1C76159900780262 /* JDCoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCoursesTableViewController.h; sourceTree = "<group>"; };
+		4705B7601C76159900780262 /* JDCoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCoursesTableViewController.m; sourceTree = "<group>"; };
+		4705B7621C76185100780262 /* JDCourse+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JDCourse+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4705B7631C76185100780262 /* JDCourse+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JDCourse+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4705B7641C76185100780262 /* JDCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCourse.h; sourceTree = "<group>"; };
+		4705B7651C76185100780262 /* JDCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCourse.m; sourceTree = "<group>"; };
+		4705B7681C7618B400780262 /* JDCourseDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCourseDetailTableViewController.h; sourceTree = "<group>"; };
+		4705B7691C7618B400780262 /* JDCourseDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCourseDetailTableViewController.m; sourceTree = "<group>"; };
+		47F6A73E1C7753B600180129 /* JDLabelAndFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLabelAndFieldCell.h; sourceTree = "<group>"; };
+		47F6A73F1C7753B600180129 /* JDLabelAndFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLabelAndFieldCell.m; sourceTree = "<group>"; };
+		47F6A7431C7761BC00180129 /* JDFormSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFormSection.h; sourceTree = "<group>"; };
+		47F6A7441C7761BC00180129 /* JDFormSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFormSection.m; sourceTree = "<group>"; };
+		47F78F5D1C85D18C009301AD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		47F78F5E1C85D18C009301AD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		47F78F621C85D2D3009301AD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47F78F641C85D2D8009301AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47FC96A21C74BCDA0041C4FA /* CoursesManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoursesManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FC96A61C74BCDA0041C4FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47FC96A81C74BCDA0041C4FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47FC96A91C74BCDA0041C4FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47FC96AF1C74BCDA0041C4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47FC96B21C74BCDA0041C4FA /* CoursesManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoursesManager.xcdatamodel; sourceTree = "<group>"; };
+		47FC96B41C74BCDA0041C4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47FC96B71C74BCDA0041C4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47FC96B91C74BCDA0041C4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FC96BF1C74C33F0041C4FA /* JDDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDDataManager.h; sourceTree = "<group>"; };
+		47FC96C01C74C33F0041C4FA /* JDDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDDataManager.m; sourceTree = "<group>"; };
+		47FC96C21C74C3E80041C4FA /* JDUser+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JDUser+CoreDataProperties.h"; sourceTree = "<group>"; };
+		47FC96C31C74C3E80041C4FA /* JDUser+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JDUser+CoreDataProperties.m"; sourceTree = "<group>"; };
+		47FC96C41C74C3E80041C4FA /* JDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUser.h; sourceTree = "<group>"; };
+		47FC96C51C74C3E80041C4FA /* JDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDUser.m; sourceTree = "<group>"; };
+		47FC96C91C74C4690041C4FA /* JDCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCoreDataTableViewController.h; sourceTree = "<group>"; };
+		47FC96CA1C74C4690041C4FA /* JDCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCoreDataTableViewController.m; sourceTree = "<group>"; };
+		47FC96CC1C74C58F0041C4FA /* JDUsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUsersTableViewController.h; sourceTree = "<group>"; };
+		47FC96CD1C74C58F0041C4FA /* JDUsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDUsersTableViewController.m; sourceTree = "<group>"; };
+		47FC96D61C74CE9B0041C4FA /* JDUserDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDUserDetailTableViewController.h; sourceTree = "<group>"; };
+		47FC96D71C74CE9B0041C4FA /* JDUserDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDUserDetailTableViewController.m; sourceTree = "<group>"; };
+		47FD35031C7DCD84003738F4 /* JDTeacherPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTeacherPicker.h; sourceTree = "<group>"; };
+		47FD35041C7DCD84003738F4 /* JDTeacherPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTeacherPicker.m; sourceTree = "<group>"; };
+		47FD350E1C7DDB22003738F4 /* JDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDHelper.h; sourceTree = "<group>"; };
+		47FD350F1C7DDB22003738F4 /* JDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47FC969F1C74BCDA0041C4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4703CDDF1C86E93A00DE4786 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				47FC96C21C74C3E80041C4FA /* JDUser+CoreDataProperties.h */,
+				47FC96C31C74C3E80041C4FA /* JDUser+CoreDataProperties.m */,
+				47FC96C41C74C3E80041C4FA /* JDUser.h */,
+				47FC96C51C74C3E80041C4FA /* JDUser.m */,
+				4705B7621C76185100780262 /* JDCourse+CoreDataProperties.h */,
+				4705B7631C76185100780262 /* JDCourse+CoreDataProperties.m */,
+				4705B7641C76185100780262 /* JDCourse.h */,
+				4705B7651C76185100780262 /* JDCourse.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		4703CDE01C86E97C00DE4786 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				47FC96BF1C74C33F0041C4FA /* JDDataManager.h */,
+				47FC96C01C74C33F0041C4FA /* JDDataManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		4703CDE11C86E9A700DE4786 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				47FD350E1C7DDB22003738F4 /* JDHelper.h */,
+				47FD350F1C7DDB22003738F4 /* JDHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		47F9EA811C77A12900D4D83A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				47FC96C91C74C4690041C4FA /* JDCoreDataTableViewController.h */,
+				47FC96CA1C74C4690041C4FA /* JDCoreDataTableViewController.m */,
+				47F9EA821C77A13500D4D83A /* Users */,
+				47F9EA831C77A13A00D4D83A /* Courses */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		47F9EA821C77A13500D4D83A /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				47FC96CC1C74C58F0041C4FA /* JDUsersTableViewController.h */,
+				47FC96CD1C74C58F0041C4FA /* JDUsersTableViewController.m */,
+				47FC96D61C74CE9B0041C4FA /* JDUserDetailTableViewController.h */,
+				47FC96D71C74CE9B0041C4FA /* JDUserDetailTableViewController.m */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		47F9EA831C77A13A00D4D83A /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				4705B75F1C76159900780262 /* JDCoursesTableViewController.h */,
+				4705B7601C76159900780262 /* JDCoursesTableViewController.m */,
+				4705B7681C7618B400780262 /* JDCourseDetailTableViewController.h */,
+				4705B7691C7618B400780262 /* JDCourseDetailTableViewController.m */,
+				47FD35031C7DCD84003738F4 /* JDTeacherPicker.h */,
+				47FD35041C7DCD84003738F4 /* JDTeacherPicker.m */,
+				47018F701C7F06CD00B3DA6A /* JDStudentsPicker.h */,
+				47018F711C7F06CD00B3DA6A /* JDStudentsPicker.m */,
+			);
+			name = Courses;
+			sourceTree = "<group>";
+		};
+		47FC96991C74BCDA0041C4FA = {
+			isa = PBXGroup;
+			children = (
+				47FC96A41C74BCDA0041C4FA /* CoursesManager */,
+				47FC96A31C74BCDA0041C4FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47FC96A31C74BCDA0041C4FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47FC96A21C74BCDA0041C4FA /* CoursesManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47FC96A41C74BCDA0041C4FA /* CoursesManager */ = {
+			isa = PBXGroup;
+			children = (
+				47FC96C81C74C3F10041C4FA /* Model */,
+				47F9EA811C77A12900D4D83A /* Controllers */,
+				47FC96D21C74C6D30041C4FA /* Table Cell */,
+				4703CDE01C86E97C00DE4786 /* Managers */,
+				4703CDE11C86E9A700DE4786 /* Helpers */,
+				47F78F631C85D2D3009301AD /* Localizable.strings */,
+				47FC96A81C74BCDA0041C4FA /* AppDelegate.h */,
+				47FC96A91C74BCDA0041C4FA /* AppDelegate.m */,
+				47FC96AE1C74BCDA0041C4FA /* Main.storyboard */,
+				47FC96B41C74BCDA0041C4FA /* Assets.xcassets */,
+				47FC96B61C74BCDA0041C4FA /* LaunchScreen.storyboard */,
+				47FC96B91C74BCDA0041C4FA /* Info.plist */,
+				47FC96A51C74BCDA0041C4FA /* Supporting Files */,
+			);
+			path = CoursesManager;
+			sourceTree = "<group>";
+		};
+		47FC96A51C74BCDA0041C4FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47FC96A61C74BCDA0041C4FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47FC96C81C74C3F10041C4FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47FC96B11C74BCDA0041C4FA /* CoursesManager.xcdatamodeld */,
+				4703CDDF1C86E93A00DE4786 /* Entities */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		47FC96D21C74C6D30041C4FA /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				47F6A7431C7761BC00180129 /* JDFormSection.h */,
+				47F6A7441C7761BC00180129 /* JDFormSection.m */,
+				47F6A73E1C7753B600180129 /* JDLabelAndFieldCell.h */,
+				47F6A73F1C7753B600180129 /* JDLabelAndFieldCell.m */,
+			);
+			name = "Table Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47FC96A11C74BCDA0041C4FA /* CoursesManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FC96BC1C74BCDA0041C4FA /* Build configuration list for PBXNativeTarget "CoursesManager" */;
+			buildPhases = (
+				47FC969E1C74BCDA0041C4FA /* Sources */,
+				47FC969F1C74BCDA0041C4FA /* Frameworks */,
+				47FC96A01C74BCDA0041C4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoursesManager;
+			productName = CoursesManager;
+			productReference = 47FC96A21C74BCDA0041C4FA /* CoursesManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47FC969A1C74BCDA0041C4FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jsd;
+				TargetAttributes = {
+					47FC96A11C74BCDA0041C4FA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = TWW7UPTWB8;
+					};
+				};
+			};
+			buildConfigurationList = 47FC969D1C74BCDA0041C4FA /* Build configuration list for PBXProject "CoursesManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47FC96991C74BCDA0041C4FA;
+			productRefGroup = 47FC96A31C74BCDA0041C4FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47FC96A11C74BCDA0041C4FA /* CoursesManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47FC96A01C74BCDA0041C4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FC96B81C74BCDA0041C4FA /* LaunchScreen.storyboard in Resources */,
+				47F78F611C85D2D3009301AD /* Localizable.strings in Resources */,
+				47FC96B51C74BCDA0041C4FA /* Assets.xcassets in Resources */,
+				47FC96B01C74BCDA0041C4FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47FC969E1C74BCDA0041C4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4705B7661C76185100780262 /* JDCourse+CoreDataProperties.m in Sources */,
+				47FC96CB1C74C4690041C4FA /* JDCoreDataTableViewController.m in Sources */,
+				4705B7671C76185100780262 /* JDCourse.m in Sources */,
+				4705B7611C76159900780262 /* JDCoursesTableViewController.m in Sources */,
+				47FD35051C7DCD84003738F4 /* JDTeacherPicker.m in Sources */,
+				47F6A7401C7753B600180129 /* JDLabelAndFieldCell.m in Sources */,
+				47FC96AA1C74BCDA0041C4FA /* AppDelegate.m in Sources */,
+				47018F721C7F06CD00B3DA6A /* JDStudentsPicker.m in Sources */,
+				47FC96C61C74C3E80041C4FA /* JDUser+CoreDataProperties.m in Sources */,
+				47FC96C11C74C33F0041C4FA /* JDDataManager.m in Sources */,
+				47FC96B31C74BCDA0041C4FA /* CoursesManager.xcdatamodeld in Sources */,
+				47F6A7451C7761BC00180129 /* JDFormSection.m in Sources */,
+				47FC96C71C74C3E80041C4FA /* JDUser.m in Sources */,
+				47FC96D81C74CE9B0041C4FA /* JDUserDetailTableViewController.m in Sources */,
+				47FC96CE1C74C58F0041C4FA /* JDUsersTableViewController.m in Sources */,
+				47FC96A71C74BCDA0041C4FA /* main.m in Sources */,
+				4705B76A1C7618B400780262 /* JDCourseDetailTableViewController.m in Sources */,
+				47FD35101C7DDB22003738F4 /* JDHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47F78F631C85D2D3009301AD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F78F621C85D2D3009301AD /* ru */,
+				47F78F641C85D2D8009301AD /* Base */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		47FC96AE1C74BCDA0041C4FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FC96AF1C74BCDA0041C4FA /* Base */,
+				47F78F5D1C85D18C009301AD /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47FC96B61C74BCDA0041C4FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FC96B71C74BCDA0041C4FA /* Base */,
+				47F78F5E1C85D18C009301AD /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47FC96BA1C74BCDA0041C4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47FC96BB1C74BCDA0041C4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47FC96BD1C74BCDA0041C4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoursesManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.CoursesManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47FC96BE1C74BCDA0041C4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoursesManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JD.CoursesManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47FC969D1C74BCDA0041C4FA /* Build configuration list for PBXProject "CoursesManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FC96BA1C74BCDA0041C4FA /* Debug */,
+				47FC96BB1C74BCDA0041C4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FC96BC1C74BCDA0041C4FA /* Build configuration list for PBXNativeTarget "CoursesManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FC96BD1C74BCDA0041C4FA /* Debug */,
+				47FC96BE1C74BCDA0041C4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47FC96B11C74BCDA0041C4FA /* CoursesManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47FC96B21C74BCDA0041C4FA /* CoursesManager.xcdatamodel */,
+			);
+			currentVersion = 47FC96B21C74BCDA0041C4FA /* CoursesManager.xcdatamodel */;
+			path = CoursesManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47FC969A1C74BCDA0041C4FA /* Project object */;
+}

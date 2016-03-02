@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  CoursesManager
+
+  Created by jsd on 01.03.16.
+  Copyright © 2016 jsd. All rights reserved.
+*/
+info = "Information";
+study = "Studies";
+teach = "Teaches";
+create = "Create";
+save = "Save";
+
+/*user*/
+
+//base
+update_user = "Update";
+update_user_message = "Update successfull";
+create_user = "Create";
+create_user_message = "Create successfull";
+
+add_student = "Add student";
+
+//form cells
+user_name = "Name";
+user_name_placeholder = "place name here";
+
+user_lastname = "Last Name";
+user_lastname_placeholder = "place last name here";
+
+user_email = "e-mail";
+user_email_placeholder = "place e-mail here";
+
+/*courses*/
+
+//base
+students = "students";
+update_course = "Update";
+update_course_message = "Update successfull";
+create_course = "Create";
+create_course_message = "Create successfull";
+
+//form cells
+course_name = "Name";
+course_subject = "Subject";
+course_sector = "Sector";
+course_teacher = "Teacher";
+
+course_name_placeholder = "Place course name here";
+course_subject_placeholder = "Place subject here";
+course_sector_placeholder = "Place sector here";
+course_teacher_placeholder = "Select teacher";

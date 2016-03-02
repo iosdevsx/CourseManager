@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  CoursesManager
+
+  Created by jsd on 01.03.16.
+  Copyright © 2016 jsd. All rights reserved.
+*/
+info = "Информация";
+study = "Курсы, которые изучает";
+teach = "Курсы, которые ведет";
+create = "Создать";
+save = "Сохранить";
+
+/*пользователи*/
+
+//основное
+update_user = "Обновление";
+update_user_message = "Информация о пользователе успешно обновлена";
+create_user = "Создание";
+create_user_message = "Пользователь успешно создан";
+
+add_student = "Добавить";
+
+//ячейки формы
+user_name = "Имя";
+user_name_placeholder = "Введите имя";
+
+user_lastname = "Фамилия";
+user_lastname_placeholder = "Введите фамилию";
+
+user_email = "e-mail";
+user_email_placeholder = "Введите e-mail";
+
+/*курсы*/
+
+//основное
+students = "Ученики";
+update_course = "Обновление";
+update_course_message = "Информация о курсе успешно обновлена";
+create_course = "Создание";
+create_course_message = "Курс успешно создан";
+
+//ячейки формы
+course_name = "Название";
+course_subject = "Предмет";
+course_sector = "Отрасль";
+course_teacher = "Преподаватель";
+
+course_name_placeholder = "Введите название";
+course_subject_placeholder = "Введите предмет";
+course_sector_placeholder = "Введите отрасль";
+course_teacher_placeholder = "Выберите преподавателя";

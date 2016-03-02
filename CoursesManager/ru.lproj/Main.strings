@@ -1,0 +1,18 @@
+
+/* Class = "UINavigationItem"; title = "Users"; ObjectID = "1UW-Ya-BQa"; */
+"1UW-Ya-BQa.title" = "Пользователи";
+
+/* Class = "UITabBarItem"; title = "Users"; ObjectID = "597-NM-yTR"; */
+"597-NM-yTR.title" = "Пользователи";
+
+/* Class = "UITabBarItem"; title = "Courses"; ObjectID = "BVT-Jv-l5A"; */
+"BVT-Jv-l5A.title" = "Курсы";
+
+/* Class = "UINavigationItem"; title = "Teacher"; ObjectID = "UKn-BH-9zZ"; */
+"UKn-BH-9zZ.title" = "Преподаватель";
+
+/* Class = "UINavigationItem"; title = "Courses"; ObjectID = "g6M-co-IkC"; */
+"g6M-co-IkC.title" = "Курсы";
+
+/* Class = "UINavigationItem"; title = "Students"; ObjectID = "tmd-Ha-56D"; */
+"tmd-Ha-56D.title" = "Ученики";
