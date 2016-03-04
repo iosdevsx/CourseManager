@@ -11,8 +11,14 @@
 /* Class = "UINavigationItem"; title = "Teacher"; ObjectID = "UKn-BH-9zZ"; */
 "UKn-BH-9zZ.title" = "Преподаватель";
 
+/* Class = "UITabBarItem"; title = "Teachers"; ObjectID = "WdV-iR-IkU"; */
+"WdV-iR-IkU.title" = "Преподаватели";
+
 /* Class = "UINavigationItem"; title = "Courses"; ObjectID = "g6M-co-IkC"; */
 "g6M-co-IkC.title" = "Курсы";
 
 /* Class = "UINavigationItem"; title = "Students"; ObjectID = "tmd-Ha-56D"; */
 "tmd-Ha-56D.title" = "Ученики";
+
+/* Class = "UINavigationItem"; title = "Teachers"; ObjectID = "z2m-TT-Ujq"; */
+"z2m-TT-Ujq.title" = "Преподаватели";

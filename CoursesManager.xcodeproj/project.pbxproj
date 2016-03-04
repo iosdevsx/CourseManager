@@ -12,6 +12,7 @@
 		4705B7661C76185100780262 /* JDCourse+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7631C76185100780262 /* JDCourse+CoreDataProperties.m */; };
 		4705B7671C76185100780262 /* JDCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7651C76185100780262 /* JDCourse.m */; };
 		4705B76A1C7618B400780262 /* JDCourseDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705B7691C7618B400780262 /* JDCourseDetailTableViewController.m */; };
+		4708E5971C8998C200C1C754 /* JDTeachersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4708E5961C8998C200C1C754 /* JDTeachersViewController.m */; };
 		47F6A7401C7753B600180129 /* JDLabelAndFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F6A73F1C7753B600180129 /* JDLabelAndFieldCell.m */; };
 		47F6A7451C7761BC00180129 /* JDFormSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F6A7441C7761BC00180129 /* JDFormSection.m */; };
 		47F78F611C85D2D3009301AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47F78F631C85D2D3009301AD /* Localizable.strings */; };
@@ -42,11 +43,13 @@
 		4705B7651C76185100780262 /* JDCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCourse.m; sourceTree = "<group>"; };
 		4705B7681C7618B400780262 /* JDCourseDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCourseDetailTableViewController.h; sourceTree = "<group>"; };
 		4705B7691C7618B400780262 /* JDCourseDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCourseDetailTableViewController.m; sourceTree = "<group>"; };
+		4708E5951C8998C200C1C754 /* JDTeachersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTeachersViewController.h; sourceTree = "<group>"; };
+		4708E5961C8998C200C1C754 /* JDTeachersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTeachersViewController.m; sourceTree = "<group>"; };
+		4708E59A1C89AEE100C1C754 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		47F6A73E1C7753B600180129 /* JDLabelAndFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLabelAndFieldCell.h; sourceTree = "<group>"; };
 		47F6A73F1C7753B600180129 /* JDLabelAndFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLabelAndFieldCell.m; sourceTree = "<group>"; };
 		47F6A7431C7761BC00180129 /* JDFormSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFormSection.h; sourceTree = "<group>"; };
 		47F6A7441C7761BC00180129 /* JDFormSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFormSection.m; sourceTree = "<group>"; };
-		47F78F5D1C85D18C009301AD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		47F78F5E1C85D18C009301AD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		47F78F621C85D2D3009301AD /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		47F78F641C85D2D8009301AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -121,6 +124,15 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		4708E5981C8998C700C1C754 /* Teachers */ = {
+			isa = PBXGroup;
+			children = (
+				4708E5951C8998C200C1C754 /* JDTeachersViewController.h */,
+				4708E5961C8998C200C1C754 /* JDTeachersViewController.m */,
+			);
+			name = Teachers;
+			sourceTree = "<group>";
+		};
 		47F9EA811C77A12900D4D83A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 				47FC96CA1C74C4690041C4FA /* JDCoreDataTableViewController.m */,
 				47F9EA821C77A13500D4D83A /* Users */,
 				47F9EA831C77A13A00D4D83A /* Courses */,
+				4708E5981C8998C700C1C754 /* Teachers */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -264,6 +277,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 47FC96991C74BCDA0041C4FA;
 			productRefGroup = 47FC96A31C74BCDA0041C4FA /* Products */;
@@ -305,6 +319,7 @@
 				47FC96C61C74C3E80041C4FA /* JDUser+CoreDataProperties.m in Sources */,
 				47FC96C11C74C33F0041C4FA /* JDDataManager.m in Sources */,
 				47FC96B31C74BCDA0041C4FA /* CoursesManager.xcdatamodeld in Sources */,
+				4708E5971C8998C200C1C754 /* JDTeachersViewController.m in Sources */,
 				47F6A7451C7761BC00180129 /* JDFormSection.m in Sources */,
 				47FC96C71C74C3E80041C4FA /* JDUser.m in Sources */,
 				47FC96D81C74CE9B0041C4FA /* JDUserDetailTableViewController.m in Sources */,
@@ -332,7 +347,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				47FC96AF1C74BCDA0041C4FA /* Base */,
-				47F78F5D1C85D18C009301AD /* ru */,
+				4708E59A1C89AEE100C1C754 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

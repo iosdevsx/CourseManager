@@ -62,17 +62,17 @@ typedef enum{
         [self.sections addObject:thirdSection];
     }
     
+    self.saveButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Ok-50.png"] style:UIBarButtonItemStyleDone target:self action:@selector(actionSaveUser)];
+    
     if (self.user)
     {
         self.navigationItem.title = NSLocalizedString(@"info", nil);
+        self.saveButton.enabled = YES;
     } else
     {
         self.navigationItem.title = NSLocalizedString(@"create", nil);
+        self.saveButton.enabled = NO;
     }
-    
-    self.saveButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Ok-50.png"] style:UIBarButtonItemStyleDone target:self action:@selector(actionSaveUser)];
-    self.saveButton.enabled = NO;
-    
     self.navigationItem.rightBarButtonItem = self.saveButton;
 }
 
@@ -119,6 +119,7 @@ typedef enum{
     
     [[JDDataManager sharedManager] saveContext];
     [JDHelper showAlert:self withTitle:title andMessage:message];
+    self.user = user;
 }
 
 - (NSArray*) configuredFormSection

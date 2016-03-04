@@ -144,6 +144,7 @@
                     <connections>
                         <segue destination="rK3-5W-sBV" kind="relationship" relationship="viewControllers" id="xAT-UJ-ALI"/>
                         <segue destination="REi-nM-n71" kind="relationship" relationship="viewControllers" id="lKH-RH-5ZU"/>
+                        <segue destination="RQd-Ir-qnb" kind="relationship" relationship="viewControllers" id="XSg-ga-w4b"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6t6-Ci-ygT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -219,6 +220,52 @@
             </objects>
             <point key="canvasLocation" x="1283" y="643"/>
         </scene>
+        <!--Teachers-->
+        <scene sceneID="05W-Da-OoU">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ukO-Yc-MBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="IYx-rz-qXo" customClass="JDTeachersViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tz7-B2-dnc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="IcF-zh-5Fw">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IcF-zh-5Fw" id="Iww-I0-wW9">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="IYx-rz-qXo" id="8iu-Z5-KHx"/>
+                            <outlet property="delegate" destination="IYx-rz-qXo" id="96g-dw-jZD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Teachers" id="z2m-TT-Ujq"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1293" y="1409"/>
+        </scene>
+        <!--Teachers-->
+        <scene sceneID="2Sc-4S-IQl">
+            <objects>
+                <navigationController id="RQd-Ir-qnb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Teachers" image="Classroom-50" id="WdV-iR-IkU"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ITe-i4-PpX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IYx-rz-qXo" kind="relationship" relationship="rootViewController" id="P3s-Zj-DNH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s06-Di-P0A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="471" y="1414"/>
+        </scene>
         <!--Courses-->
         <scene sceneID="OyK-a2-9hD">
             <objects>
@@ -241,6 +288,7 @@
     </scenes>
     <resources>
         <image name="Cancel-50" width="25" height="25"/>
+        <image name="Classroom-50" width="25" height="25"/>
         <image name="Contacts-50" width="25" height="25"/>
         <image name="Literature-50" width="25" height="25"/>
         <image name="Ok-50" width="25" height="25"/>
